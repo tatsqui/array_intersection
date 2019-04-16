@@ -7,10 +7,10 @@ def intersection(array1, array2)
   end
 
   if array1.length < array2.length
-    smaller = array1.sort
+    smaller = array1
    larger = array2.sort
   else
-    smaller = array2.sort
+    smaller = array2
    larger = array1.sort
   end
 
