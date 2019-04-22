@@ -1,6 +1,6 @@
 # Returns a new array to that contains elements in the intersection of the two input arrays
-# Time complexity: n*m
-# Space complexity: Can be On (sorting in place possible)
+# Time complexity: n*m or quadratic time complexity that is dependent on length of smaller array
+# Space complexity: Up to On after sorting (in place is possible) where n is length of smaller array
 def intersection(array1, array2)
   unless array1 && array2
     return []
